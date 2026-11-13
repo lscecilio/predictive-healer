@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import psycopg2
 import urllib.request
 
-DB_URL  = os.getenv('DATABASE_URL', 'postgresql://atlas:atlas_app_saas_2026@localhost:5432/atlas_db')
+DB_URL  = os.getenv('DATABASE_URL', 'postgresql://localhost:5432/atlas_db')
 AI_URL  = os.getenv('AI_ROUTER_URL', 'http://127.0.0.1:3080')
 GW_URL  = os.getenv('GATEWAY_URL', 'http://127.0.0.1:3147')
 TG_TOKEN = os.getenv('TG_TOKEN', '')
